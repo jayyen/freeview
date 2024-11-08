@@ -20,11 +20,8 @@ https://live-xtra-sg1.global.ssl.fastly.net/live-hls/tonton5_720p/index.m3u8|Ref
 https://tonton-live-ssai.akamaized.net/live/0e27ef78-4cc9-4c62-bec9-5c946c9e7354/cmaf.isml/.m3u8
 
 #EXTINF:-1 group-title="myFreeview: TV" ch-number="108" tvg-id="108" tvg-chno="108" tvg-logo="https://headend-api.tonton.com.my/v100/imageHelper.php?id=6420325:378:CHANNEL:IMAGE:png&w=200&appID=TONTON",8TV
-# AUDIO groups
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio-aacl-96",NAME="audio_0",DEFAULT=YES,AUTOSELECT=YES,CHANNELS="2",URI="cmaf-audio_0=96000.m3u8"
 #EXT-X-STREAM-INF:BANDWIDTH=5709000,AVERAGE-BANDWIDTH=5190000,CODECS="mp4a.40.2,avc1.640028",RESOLUTION=1920x1080,FRAME-RATE=25,VIDEO-RANGE=SDR,AUDIO="audio-aacl-96",CLOSED-CAPTIONS=NONE
 cmaf-video=4800000.m3u8
-#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=700000,CODECS="avc1.640028",RESOLUTION=1920x1080,VIDEO-RANGE=SDR,URI="keyframes/cmaf-video=4800000.m3u8"
 
 #EXTINF:-1 group-title="myFreeview: TV" ch-number="109" tvg-id="109" tvg-chno="109" tvg-logo="https://headend-api.tonton.com.my/v100/imageHelper.php?id=6420326:378:CHANNEL:IMAGE:png&w=200&appID=TONTON",TV9
 https://tonton-live-ssai.akamaized.net/live/2020783a-0303-401a-9c92-b7c3c9108c0b/cmaf.isml/.m3u8
